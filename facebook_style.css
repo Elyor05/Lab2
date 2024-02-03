@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color:aliceblue
+}
+.fb_logo{
+    height: 126px;
+    margin: -28px;
+    position: fixed;
+    padding: 200px 0 10px 200px;
+}
+#under{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    position: fixed;
+    padding: 300px 0 10px 210px;
+}
+form{
+    background-color: transparent;
+    position: relative;
+    width: 320px;
+    height: 467px;
+    padding: 130px 890px;
+    box-shadow: 5px 5px 6px -7px; 
+    
+}
+input[type='text'],input[type='password']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200,200,200);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+button{
+    border: none;
+    background-color: #1877f2;
+    color : white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.forget{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding: 0 0 0 80px;
+    font-family: "Segoe UI";
+    
+}
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+.create{
+    width: 180px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+}
+.sub_link h3{
+    width: 270px;
+    position: fixed;
+    color: black;
+    font-family: "Segoe UI";
+    padding: 30px 0 0 60px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sub_link h3 a{
+    color: black;
+    font-weight: bold;
+}
