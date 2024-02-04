@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+    font-family: "Roboto";
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form form{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgb(128,128,128);
+}
+.form form .logo{
+    width: 200px;
+    margin: 20px 0;
+}
+.form form .input{
+    width: 90%;
+    padding: 0.6em;
+    border-radius: 8px;
+    border: 1px soid rgb(128,128,128);
+    margin: 3px;
+}
+.btn{
+    width: 90%;
+    padding: 0.4em;
+    font-weight: bold;
+    background-color: rgb(1,183,255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0;
+    color: wheat;
+}
+.login{
+    font-weight: bold;
+    color: rgb(85,0,255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.sign_up{
+    text-align: center;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 20px;
+    margin: 10px;
+}
+.get_app{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.store{
+    display: flex;
+    align-items: center;
+}
+#play{
+    width: 190px;
+}
+#microsoft{
+    width: 135px;
+    border-radius: 8px;
+}
